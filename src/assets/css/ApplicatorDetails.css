@@ -1,0 +1,13 @@
+th {
+    position: relative;
+    padding-right: 20px;
+  }
+  
+  th i {
+    margin-left: 5px;
+    color: #ccc;
+  }
+  
+  th:hover i {
+    color: white;
+  }

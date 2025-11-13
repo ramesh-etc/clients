@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+  }
+  
+  @keyframes drawPath {
+    0% {
+      stroke-dashoffset: 5000;
+    }
+    50% {
+      stroke-dashoffset: 100;
+    }
+    100% {
+      stroke-dashoffset: 10000;
+    }
+  }
+  
+  .animated-svg path {
+    fill: none;
+    stroke-width: 60;
+    stroke-dasharray: 5000;
+    animation: drawPath 10s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  body.loaded .animated-svg path {
+    animation: drawPath 5s ease forwards;
+  }
+  
+  /* .main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  } */
+  .main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    background-color: rgb(223, 222, 222);
+    background: radial-gradient(circle at bottom center, #484848 0%, #000000 70%);
+    transition: 1s ease-out;
+  }
+  
+  .topactive {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: -50%;
+  }
+  
+  .bottom {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background: radial-gradient(circle at top center, #484848 0%, #000000 70%);
+    transition: 1s ease-out;
+  }
+  
+  .bottomactive {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: -50%;
+  }
+  
+  .animated-svg {
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(0deg) scale(1);
+  
+  };  
+  .loading-text {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #fff;
+  }
+  .LinearProgLoader{
+    width:19%;
+  }
+  .gutterBottom{
+    color: grey !important;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .LinearProgress{
+    background-color:rgb(199, 197, 197) !important;
+  }
+  .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: #4cc0ad !important;
+  }
+
+
+@keyframes drawPath {
+  0% {
+    stroke-dashoffset: 5000;
+  }
+  50% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 10000;
+  }
+}
+
+.animated-svg path {
+  fill: none;
+  stroke-width: 60;
+  stroke-dasharray: 5000;
+  animation: drawPath 10s ease-in-out infinite;
+  animation-direction: alternate-reverse;
+}
+
+body.loaded .animated-svg path {
+  animation: drawPath 5s ease forwards;
+}
+
+/* .main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+} */
+.main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  background-color: rgb(223, 222, 222);
+  background: radial-gradient(circle at bottom center, #484848 0%, #000000 70%);
+  transition: 1s ease-out;
+}
+
+.topactive {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: -50%;
+}
+
+.bottom {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  background: radial-gradient(circle at top center, #484848 0%, #000000 70%);
+  transition: 1s ease-out;
+}
+
+.bottomactive {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: -50%;
+}
+
+.animated-svg {
+  width: 100px;
+  display: block;
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateY(0deg) scale(1);
+
+};  
+.loading-text {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #fff;
+}
+.LinearProgLoader{
+  width:19%;
+}
+.gutterBottom{
+  color: grey !important;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.LinearProgress{
+  background-color:rgb(199, 197, 197) !important;
+}
+.css-5xe99f-MuiLinearProgress-bar1{
+  background-color: #4cc0ad !important;
+}

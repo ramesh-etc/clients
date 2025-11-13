@@ -1,0 +1,31 @@
+
+.ETP-logo{
+    /* top: 0; */
+    /* margin-bottom:2px; */
+    /* position: absolute;
+    margin-top: 40px;
+    left:40px; */
+}
+
+
+.Mainloginpage {
+    position: relative;
+    text-align: center;
+    height: 100vh; 
+    background-image: url("../Images/Grey.svg");
+    /* background-image: linear-gradient(to right, #008F39, #009CDC, #00417A); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* body, html { */
+    /* overflow-x: hidden; 
+    overflow-y: hidden;
+  } */
+
+
+

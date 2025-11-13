@@ -1,0 +1,15 @@
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 12px;
+
+    
+    transition-duration: 3s;
+}
+.box1 {
+    transition-timing-function: ease-in;
+}
+.box:hover {
+    height: 150px;
+}

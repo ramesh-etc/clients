@@ -1,0 +1,19 @@
+/* Untruncate full calendar event title */
+.sx-event {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  word-break: break-word;
+  font-size: 12px; /* optional tweak */
+  padding: 2px 4px;
+}
+
+
+.rightPanelScroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+.newScrollBehaviour::-webkit-scrollbar{
+  width: 0px;
+}

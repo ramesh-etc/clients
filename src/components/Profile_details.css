@@ -1,0 +1,9 @@
+.PhoneInput input{
+    height:42px !important;
+}
+.otp{
+    margin-top: 2rem !important;
+}
+.otp-input {
+    margin-top: 0.5rem !important;
+}

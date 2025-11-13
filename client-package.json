@@ -1,0 +1,7 @@
+{
+  "name": "client",
+  "version": "0.0.116",
+  "homepage": "index.html",
+  "login_redirect": "/#/dashboards",
+  "env": ""
+} 

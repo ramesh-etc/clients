@@ -1,0 +1,15 @@
+/* .bundlePage{
+
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.bundlePage::-webkit-scrollbar{
+    display: none;
+} */
+
+@media screen and (min-width: 1024px) {
+    .bundel_card {
+      grid-column: 2;
+    }
+  }

@@ -1,0 +1,54 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.buttons{
+    padding-right:25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 20px !important;
+}
+.frmb{
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;;
+}
+.alert-info{
+    background-color: white !important;
+    border: none !important;
+    font-size: 24px;
+}
+#fb-editor{
+    padding :0 20px 0 20px;
+}
+.prev-holder input[type=number] {
+    width: 100% !important;
+}
+.description-wrap,
+.access-wrap,
+.value-wrap,
+.className-wrap,
+.step-wrap,
+.maxlength-wrap,
+.toggle-wrap,
+.inline-wrap,
+.other-wrap,
+/* .option-selected, */
+.name-wrap{
+    display: none !important;
+}
+
+.field-label{
+    font-weight: bold !important;
+}
+.btn-group{
+    display: none !important;
+}
+.subtype-wrap{
+    display: none!important;
+}  
+
+.form-elements .field-options .sortable-options-wrap .option-label{
+   /* display: none !important; */
+}

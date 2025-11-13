@@ -1,0 +1,10 @@
+.bundlePage{
+    height: 100vh !important;
+    overflow-y: auto !important;
+}
+
+.bundlePage::-webkit-scrollbar{
+    display: none;
+}
+
+
